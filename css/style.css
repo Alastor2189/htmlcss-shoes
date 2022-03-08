@@ -48,9 +48,18 @@ li {
 .yellow{
     background-color: yellow;
 }
-.shoe{
+.best-model{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.text-shoe{
+    color: yellow;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    text-align: center;
+}
+.yellow h2{
+    color: green;
 }
