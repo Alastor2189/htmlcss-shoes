@@ -2,9 +2,7 @@
 <html lang="en">
 <head>
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,21 +10,24 @@
     <title>Shoes</title>
 </head>
 <body>
-    <nav class="num-shoes">
+    <nav class="menu-shoes">
         <ul>
-           <li><a href=""></a>1</li>
-           <li><a href=""></a>2</li>
-           <li><a href=""></a>3</li>
+           <li><a href="#red-zone">1</a></li>
+           <li><a href="#green-zone">2</a></li>
+           <li><a href="#yellow-zone">3</a></li>
         </ul>
     </nav>
     <main>
-        <div class="container red">
+        <div class="container red" id="red-zone">
             <img class="shoe" src="img/01.png" alt="Modello di punta">
+            <div class="best-model">
+                <h2>Il nostro modello di punta</h2>
+            </div>
         </div>
-        <div class="container green">
+        <div class="container green" id="green-zone">
             <img class="shoe" src="img/02.png" alt="Modello di punta">
         </div>
-        <div class="container yellow">
+        <div class="container yellow" id="yellow-zone">
             <img class="shoe" src="img/03.png" alt="Modello di punta">
         </div>
     </main>

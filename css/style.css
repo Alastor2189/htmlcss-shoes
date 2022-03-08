@@ -4,6 +4,34 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    font-family: Arial;
+    scroll-behavior: smooth;
+}
+.menu-shoes{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: white;
+    z-index: 20;
+}
+li:not(li:last-child){
+    margin-right: 3em;
+}
+li {
+    color: black;
+    background-color: white;
+    border-radius: 2em;
+    font-weight: bold;
+
+}
+.menu-shoes li{
+    display: inline-block;
+    padding: 0.9em;
+}
+.menu-shoes a{
+    text-decoration: none;
+}
 
 .container{
     position: relative;
